@@ -1,0 +1,42 @@
+.benefit{
+    padding: 69px 0;
+    color: #0d0d0d;
+    h2{
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 65px;
+    }
+    &__block{
+        width: 240px;
+    }
+    &__icon{
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 35px;
+    }
+    &__title{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+    &__content{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__link{
+        color: #ff0000;
+        text-decoration: underline;
+        &:hover{
+            color:$main_color;
+            cursor: pointer;
+        }
+    }
+}
