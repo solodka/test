@@ -13,6 +13,12 @@
         display: block;
         margin: 0 auto;
         padding-bottom: 35px;
+        &_animated{
+            animation: heartbeat 2s ease infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
     }
     &__title{
         display: block;
